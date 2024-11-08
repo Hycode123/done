@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* border:1px solid red ; */
+    background-image: url('back-ground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    /* border:1px solid blue ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    /* border:1px solid hotpink ; */
+    align-items: center;
+    margin-top: 30px;
+}
+.nav{
+    width: 300px;
+    height: 50px;
+    /* border:1px solid hotpink ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width: 250px;
+    height: 50px;
+    /* border:1px solid hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.star{
+    width: 50px;
+    height: 25px;
+    /* border: 1px solid black; */
+    color: #F19E39;
+}
+.pics{
+    width: 50px;
+    height: 25px;
+    /* border: 1px solid black; */
+    color: #fff;
+}
+
+.nav a{
+    width: 80px;
+    height: 30px;
+    /* border:1px solid hotpink ; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.hero-content{
+    width: 50%;
+    height: 250px;
+    /* border:1px solid hotpink ;  */
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tagline{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tagline p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+button{
+    height: 35px;
+    width: 150px;
+    background-color:#00A651;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.service{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex{
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-around;
+    /* border-bottom: 1px solid white; */
+    background-color: white;
+}
+.card{
+    width: 400px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 0px 10px 16px 0px #00000026;
+
+
+}
+.icon{
+    color: #32DF8F;
+    margin: 20px;
+}
+.text-h5{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-p{
+    margin: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-hotel{
+    color: #00B8E0;
+    margin: 20px;
+}
+.icon-plane{
+    color:#E48B78;
+    margin: 20px;
+}
+.new{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(119, 119, 126, 0.192),rgba(146, 146, 153, 0.5)),url("map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 15px;
+    margin-top: 20px;
+}
+.h3{
+    width: 450px;
+    height: 70px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.h3 h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.small{
+    width: 450px;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+.small p{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 13px;
+}
+.tags{
+    display: flex;
+    gap: 100px;
+}
+.tag1{
+    width: 130px;
+    height: 120px;
+    background-color: #f9f9f9;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.num b{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.year-text{
+    text-align: center;
+}
+.map{
+    width: 98%;
+    height: 350px;
+    margin-top: 10px;
+    /* border: 1px solid #222; */
+    background-image: url('map.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.popular {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 350px;
+    gap: 20px;
+}
+.slip{
+    
+    margin:10px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #222;
+}
