@@ -205,26 +205,30 @@ color: #00A651;
 }
 .map{
     width: 98%;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    height: auto;
     /* border: 1px solid #222; */
-    background-image: url('map.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
 }
+.map-pic, .map-pics{
+    width: 650px;
+    height: 390px;
+    /* border: 1px solid #222; */
+}
+
 .popular {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .slips{
-
     /* border: 1px solid black; */
-    width: 1260px;
-    height: 250px;
+    width: 550px;
+    height: 390px;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -360,13 +364,28 @@ color: #00A651;
     border: none;
     background-color: #00A651;
  }
+ .book-next{
+width: 98%;
+height: 500px;
+background-color: #f9f9f9;
+ }
+ .trip-text{
+    text-align: center;
+ font-family: 'Open Sans', sans-serif;
+ margin-top: 20px;
+
+ }
  .people-speech{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ECF1F0;
+    height: auto;
  }
  .people-text{
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
  }
  .people-bg{
     height: 250px;
@@ -385,18 +404,168 @@ color: #00A651;
     height: 100px;
     width: 350px;
     text-align: center;
-    font-size: 15px;
-    border: 1px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
     position: absolute;
-    margin-top: 200px;
+    margin-top: 240px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    z-index: 1;
  }
  .white-pics{
-    border-radius: 200px;
+    border-radius: 190px;
     width: 80px;
     height: 70px;
-    cdcd
+    position: absolute;
+    top: 3250px;
+    left: 47%;
+    z-index: 2;
+ }
 
+
+ /* moblie responsiveness */
+ @media(max-width: 700px) {
+    .nav{
+        display: none;
+    }
+    .star{
+        display: none;
+    }
+    .pics{
+        display: none;
+    }
+    .hero-content{
+        width: 99%;
+        height: 250px;
+        /* border:1px solid hotpink ;  */
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tagline h1{
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .tagline p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .btn-more{
+        margin-top: 10px;
+    }
+    .flex{display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* border-bottom: 1px solid white; */
+        background-color: white;
+    }
+    .card{
+        width: 90%;
+        height: 170px;
+        /* border: 1px solid black; */
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        margin: 30px;
+        box-shadow: 0px 10px 16px 0px #00000026;
+    }
+    .h3{
+        width: 370px;
+        height: 70px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+    }
+    .h3 h2{
+        font-size: 25px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .small{
+        width: 350px;
+        height: 60px;
+        /* border: 1px solid black; */
+    }
+    .small p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    }
+    .new{
+        width: 100%;
+        height: auto;
+    }
+    .tags{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tag1{
+        width: 130px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .map{
+        display: flex;
+        flex-direction: column;
+    }
+    .map-pic, .map-pics{
+        width: 97%;
+        height: 290px;
+        /* border: 1px solid #222; */
+    }
+    .slips{
+        /* border: 1px solid black; */
+        width: 370px;
+        height: 520px;
+        display: flex;
+        align-items: start;
+    }
+    .slip{
+        font-size: 20px;
+        width: 430px;
+        height: 150px;
+       
+        
+    }
+    .btn-packages{
+        display: none;
+        
+    }
+    .explores{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 98%;
+        height: auto;
+        
+    }
+    .discover-more{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 17px;
+     }
+     .people-bg{
+        height: 250px;
+        width: 500px;
+        
+        /* border: 1px solid black; */
+     }
+     .white-p{
+        font-size: 13px;
+     }
+     .white-pics{
+        border-radius: 190px;
+        width: 80px;
+        height: 70px;
+        position: absolute;
+        top: 5210px;
+        left: 45%;
+        z-index: 2;
+     }
  }
