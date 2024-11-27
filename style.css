@@ -381,6 +381,49 @@ background-color: #f9f9f9;
  margin-top: 20px;
 
  }
+ .trip-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+ }
+ .scr-card{
+    margin-top: 30px;
+    /* margin-left: 300px; */
+ }
+ .trip-flex{
+    height: 450px;
+    width: 98%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+ }
+ .trip-icon{
+    background-color: #E48B78;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .trip{
+    width: 300px;
+    height: 90px;
+    /* border: 1px solid black; */
+    display:flex;
+    gap: 20px;
+ }
+ .both{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .trip-p{
+    font-size: 10px;
+ }
+ .trip-b{
+font-size:15px;
+ }
  .people-speech{
     display: flex;
     flex-direction: column;
@@ -429,6 +472,28 @@ background-color: #f9f9f9;
     top: 3250px;
     left: 47%;
     z-index: 2;
+ }
+ .sub-main{
+    width: 99%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+ }
+ .subscribe{
+    width: 600px;
+    height: 200px;
+    background-color: #9FFFEC;
+    border-radius: 20px;
+ }
+ .sub-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5E6282;
+    margin-top: 20px;
  }
 
 
@@ -588,6 +653,24 @@ background-color: #f9f9f9;
         margin-bottom: 20px;
         font-size: 17px;
      }
+     .trip-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 98%;
+        height: 1000px;
+     }
+     .scr-card{
+        width: 95%;
+        height: 500px;
+     }
+     .src1-card{
+        width: inherit;
+        height: inherit;
+     }
+     .people-speech{
+        margin-top: 350px;
+     }
      .people-bg{
         height: 250px;
         width: 500px;
@@ -602,7 +685,7 @@ background-color: #f9f9f9;
         width: 80px;
         height: 70px;
         position: absolute;
-        top: 5210px;
+        top: 5610px;
         left: 45%;
         z-index: 2;
      }
