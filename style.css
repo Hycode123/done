@@ -622,7 +622,7 @@ a {
     margin-right: auto;
   }
   .tagline h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -770,7 +770,7 @@ a {
     width: 70px;
     height: 60px;
     position: absolute;
-    top: 5615px;
+    top: 5630px;
     left: 42%;
     z-index: 2;
   }
